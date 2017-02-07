@@ -12,4 +12,4 @@ curl -v $api_endpoint/orders
 echo "Adding order items..."
 curl -v -H "Content-Type: application/json" -d '{"orderId": 1, "desc": "Order Item 1"}' $api_endpoint/orders/1/items/
 
-curl -v $api_endpoint/orders/items
+curl -v $api_endpoint/orders/1/items
