@@ -1,6 +1,6 @@
-# Orders API
+# Node.js Postgres Sequelize Sample
 
-This API exposes following API resouces:
+This sample implements a sample REST API using Node.js, Express.js, Sequelize and Postgres. It exposes the following API resouces:
 
 ```
 HTTP POST /api/v1/orders/
